@@ -12,6 +12,9 @@
   #hero-msg h1{
     text-align: center;
   }
+  h1{
+    text-align: center;
+  }
    #hero-msg h4{
     text-align: center;
   }
@@ -233,6 +236,11 @@ nav {
     grid-template-columns: repeat(10, 1fr);
   }
 
+  .desc {
+    text-align: center;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
 
 
 
