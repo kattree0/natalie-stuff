@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Space+Grotesk:wght@300..700&family=Ultra&display=swap');
+
+:root{
+--heading-font: "Space Grotesk","IM Fell French Canon SC";
+--paragraph-font: "Itim",'comic sans' ,sans-serif;  
+--pc: #232342  ;
+--sc: #a7d9ff;
+--a1c: #b4ffd7;
+--a2c: #e6b4ff ;
+}
+
+body{
+ background-color: var(--pc);
+}
+
+h1{
+    font-family: "Ultra", "Space Grotesk","IM Fell French Canon SC";
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    margin-bottom: 6%;
+}
+
+h6{
+    font-family: var(--heading-font);
+    text-align: center;
+    font-size: 1em;
+    color: #2c2d5e;
+
+}
+
+h2{
+    margin-top: 8%;
+    font-family: var(--heading-font);
+    color: #b4ffd7;
+    text-align: center;
+
+
+}
+
+p{
+    color: #b68eca;
+    font-family: var(--paragraph-font);
+    margin: 2% 25%;
+}
+header{
+}
+
+header img{
+    width: 7%;   
+    height: auto;  /* */
+    margin-right: 60%;
+    
+  }
+header a {
+    padding-left: 2%;
+    margin-top: -50em ;
+}
+a{
+    text-align: right;
+    font-family: var(--paragraph-font);
+    text-decoration: none;
+    color: #a7d9ff;
+}
+footer{
+    background-color: black;
+    margin-top: 3%;
+    padding-bottom: 3%;
+    align-items: center;
+}
+footer img{
+    width: 5%;   
+    height: auto;
+    align-items: right;
+    margin-top: 1%;
+    
+}
+.sitplan{
+    margin-right: 75%;
+    font-size: 1.5em;
+    margin-left: 3%;
+    margin-bottom: 10%;
+    font-family: var(--paragraph-font);
+
+}
+.grid{
+    grid-template-columns: 1fr 4fr;
+    display: grid;
+
+}
+.abtme{
+    grid-column: 2/3;
+    margin-right: 10%;
+
+
+}
+.me{
+    grid-column: 1/2;
+    margin-left: 70%;
+    width: 100%;   
+    height: auto;
+}
+.intro{
+    grid-column: 2/3;
+    text-align: left;
+    margin-right: 35%;
+
+}
+.late{
+    margin-top: 1%;
+    margin-left: 39%;
+    margin-right: 45%;
+}
+
