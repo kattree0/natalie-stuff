@@ -109,8 +109,80 @@ footer img{
 
 }
 .late{
-    margin-top: 1%;
+  /*  margin-top: 1%;
     margin-left: 39%;
-    margin-right: 45%;
+    margin-right: 45%;*/
+
+    margin: auto;
+    display: block;
+    -webkit-filter: blur(7px); /* Safari 6.0 - 9.0 */
+    filter: blur(7px);
+  }
+
+
+.everything img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
 }
 
+.justify_issues{
+    text-align: center;
+  }
+
+.everything p{
+    display: block;
+    max-width: 50%;
+    text-align: justify;
+}
+
+.everything h4{
+    text-align: center;
+    font-family: var(--paragraph-font);
+    display: block;
+
+}
+h3{
+    text-align: center;
+}
+
+
+/*for the home page,, the one element that I had to add*/
+.late {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    display: block;
+    max-width: 50%;
+
+    text-align: center;
+    margin: auto;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #b4ffd7;
+    color: #2c2d5e;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  /**/
+
+  .justify_issues{
+    text-align: center;
+  }
